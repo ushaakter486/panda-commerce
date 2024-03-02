@@ -13,14 +13,11 @@ body{
 
 }
 section{
-    padding: 20px 0;
+    padding: 10px 0;
 }
  span{
     color: #ff136f;
 } 
-/* button{
-    background-color: #ff136f;
-} */
 
 /* navigation area style */
 .nav-area{
@@ -106,3 +103,209 @@ section{
 .header-area .image-section img{
     width: 65%;
 }
+
+/* 3rd css style */
+
+
+.center-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+     margin-left: 90px;
+    }
+    h2{
+    margin-top: 150px;
+    font-size: 50px;
+     margin-left: 90px; 
+    }
+    
+    .code-1{
+    display: flex;
+    width: 358%;
+    height: 120%;
+    margin: 0 20px;
+    padding: 0 25;
+    border-radius: 10px;
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+    font-size: 30px;
+    padding-left: 30px;
+    }
+    .code-1 img{
+    width: 100px;
+    padding-left: 90px;
+    }
+    
+    
+    .code-2{
+    display: flex;
+    width: 358%;
+    height: 120%;
+    margin: 0 20px;
+    padding: 0 25;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    
+    font-size: 30px;
+    padding-left: 30px;
+    }
+    
+    .code-2 img{
+    width: 100px;
+    padding-left: 90px;
+    }
+    .code-3{
+    display: flex;
+    width: 358%;
+    height: 120%;
+    margin: 0 20px;
+    padding: 0 25;
+    border-radius: 10px;
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+    
+    font-size: 30px;
+    padding-left: 30px;
+    
+    }
+    .code-3 img{
+    width: 100px;
+    padding-left: 100px;
+    }
+    
+     .section-2 h1{
+        font-size: 50px;
+        margin-top: 100px;
+        padding-left: 90px;
+    } 
+    
+    /* 4th part css style */
+
+.shoe-bg{
+    background-color: #f4f4f4;
+    margin-top: 100px;
+} 
+    
+    .shoe-title{
+        display: flex;
+        justify-content: space-between;
+      
+        
+    }
+    .shoe-title h1{
+        font-size: 3em;
+    }
+    .shoe-title a{
+        color: #FFD019;
+        text-decoration: none;
+        
+    }
+    .shoe-section{
+        display: grid;
+        grid-gap: 5%;
+        
+        grid-template-columns: repeat(3,1fr);
+        padding-left: 90px;
+       
+    
+        
+    }
+     .product{ 
+         background-color: #ffffff; 
+         padding: 20px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         border-radius: 10px;
+    } 
+    .product .product-title{
+        font-size: 1.2em;
+        font-weight: 600;
+    }
+    .product p{
+        text-align: center;
+    }
+    .shoe-section .product img{
+        width: 100%;
+    }
+
+    .my-btn-1 a{
+        background-color:black;
+        
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    
+        }
+        .product span{
+            color: black;
+            font-weight: 600;
+            margin-bottom: 20px;
+            
+        }
+
+        /* 5th section css style */
+
+         .bag-bg{
+            background-color: #f4f4f4;
+            margin-top: 100px;
+        }   
+            
+            .bag-title{
+                display: flex;
+                justify-content: space-between;
+              
+                
+            }
+            .bag-title h1{
+                font-size: 3em;
+            }
+            .bag-title a{
+                color: #FFD019;
+                text-decoration: none;
+                
+            }
+            .bag-section{
+                display: grid;
+                grid-gap: 5%;
+                
+                grid-template-columns: repeat(3,1fr);
+                padding-left: 90px;
+               
+            
+                
+            }
+             .product-area{ 
+                 background-color: #ffffff; 
+                 padding: 20px;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 border-radius: 10px;
+            } 
+            .product-area .product-title-code{
+                font-size: 1.2em;
+                font-weight: 600;
+            }
+            .product-area p{
+                text-align: center;
+            }
+            .bag-section .product-area img{
+                width: 100%;
+            }
+        
+         .my-btn-1 a{
+                background-color:black;
+                
+                color: white;
+                text-decoration: none;
+                padding: 10px 20px;
+                border-radius: 5px;
+            
+                }
+                .product-area span{
+                    color: black;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    
+                }
+        
