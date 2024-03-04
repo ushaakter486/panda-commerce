@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>panda commerce</title>
+    <!-- Animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- ASO Scrool animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +25,7 @@
    <section>
     <div class="container nav-area">
         <div class="logo">
-            <img src="image/logo.png" alt="">
+            <img class="animate__animated animate__swing href"src="image/logo.png" alt="">
         </div>
         <div class="search-box">
             <input type="text" name="" id="" placeholder="search">
@@ -39,8 +46,8 @@
    <!-- Header section -->
    <section>
     <div class="container header-area">
-        <div class="content-section">
-            <h1>Mi LED TV 4A PRO 32</h1>
+        <div class="content-section"data-aos="fade-right">
+            <h1 class="animate__animated animate__rubberBand">Mi LED TV 4A PRO 32</h1>
             <p>
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor 
 do amet sint. Velit officia consequat duis enim velit mollit. 
@@ -48,17 +55,17 @@ Exercitation veniam consequat sunt nostrud amet.
             </p>
             <span>$1289</span>
             <div class="my-btn">  
-                <a href="#">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a> 
+                <a href="#">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
         </div>
-        <div class="image-section">
+        <div class="image-section"data-aos="fade-left">
             <img src="image/images/banner-images/tv.png" alt="">
         </div>
     </section>
 <!-- 3rd section  -->
-<h2>Categories</h2>
+<h2 class="animate__animated animate__shakeX">Categories</h2>
 <section class="center-area">
-    <div class="code-1">
+    <div class="code-1"data-aos="fade-right">
       <h3>Watch</h3>
       <img src="image/images/categories/watch.png" alt="">
     </div>
@@ -67,7 +74,7 @@ Exercitation veniam consequat sunt nostrud amet.
         <img src="image/images/categories/bag.png" alt="">
 
     </div>
-    <div class="code-3">
+    <div class="code-3"data-aos="fade-right">
         <h3>Shoes</h3>
         <img src="image/images/categories/shoes.png" alt="">
 
@@ -78,12 +85,13 @@ Exercitation veniam consequat sunt nostrud amet.
 
 <section class="shoe-bg">
     <div class="container shoe-title">
-        <h1>Shoes</h1>
+        <h1 class="animate__animated animate__shakeY">Shoes</h1>
         <a href="#">See All</a>
         
     </div>
 <div class="cotainer shoe-section">
-<div class="product">
+<div class="product" data-aos="fade-up"
+data-aos-duration="3000">
     <img src="image/images/shoes/shoe-1.png" alt="">
 <div class="product-title">Reebok Dart Men’s Shoes</div>
 <p class="product-discripyion">
@@ -98,8 +106,9 @@ Exercitation veniam consequat sunt nostrud amet.
 </div>
 
 
-<div class="product">
-    <img src="image/images/shoes/shoe-2.png" alt="">
+<div class="product" data-aos="fade-up"
+data-aos-duration="3500">
+    <img class="animate__animated animate__jello animate__delay-2s" src="image/images/shoes/shoe-2.png" alt="">
 <div class="product-title">Reebok Pump</div>
 <p class="product-discription">
     Amet minim mollit non deserunt ullamco 
@@ -114,7 +123,8 @@ Exercitation veniam consequat sunt nostrud amet.
 
 
 
-<div class="product">
+<div class="product" data-aos="fade-up"
+data-aos-duration="3000">
     <img src="image/images/shoes/shoe-3.png" alt="">
 <div class="product-title">Reebok All Terrain</div>
 <p class="product-discripyion">
@@ -132,14 +142,15 @@ Exercitation veniam consequat sunt nostrud amet.
 
 <!-- 5th section -->
 
-  <section class="bag-bg">  
+    <section class="bag-bg">    
     <div class="container bag-title">
-        <h1>Backpack</h1>
+        <h1 class="animate__animated animate__heartBeat >Backpack</h1>
         <a href="#">See All</a>
         
     </div>
 <div class="cotainer bag-section">
-<div class="product-area">
+<div class="product-area" data-aos="fade-up"
+data-aos-duration="3000">
     <img src="image/images/bags/bag-1.png" alt="">
 <div class="product-title-code">Ison Backpack</div>
 <p class="product-discripyion">
@@ -154,8 +165,9 @@ Exercitation veniam consequat sunt nostrud amet.
 </div>
 
 
-<div class="product-area">
-    <img src="image/images/bags/bag-2.png" alt="">
+<div class="product-area" data-aos="fade-up"
+data-aos-duration="3500">
+    <img class="animate__animated animate__jello animate__delay-2s" src="image/images/bags/bag-2.png" alt="">
 <div class="product-title-code">Biaowang Backpack</div>
 <p class="product-discription">
     Amet minim mollit non deserunt ullamco 
@@ -169,7 +181,8 @@ Exercitation veniam consequat sunt nostrud amet.
 </div>
 
 
-<div class="product-area">
+<div class="product-area" data-aos="fade-up"
+data-aos-duration="3000">
     <img src="image/images/bags/bag-3.png" alt="">
 <div class="product-title-code">Dxyizu WS54 Smart</div>
 <p class="product-discripyion">
@@ -182,11 +195,36 @@ Exercitation veniam consequat sunt nostrud amet.
     <a href="#">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
     </div>
 </div>
-</section>
+ </section> 
 
+
+<!-- footer section -->
+<footer>
+    <div class="container footer-area">
+    
+
+    <h1 class="animate__animated animate__shakeY">LET'S STAY IN TOUCH</h1>
+
+   <p>Get updates on sales specials and more</p> 
+
+   <div class="submit">
+    <input type="email" name="" id=""placeholder="Enter your email">
+
+    <a href="#">Send</a>
+        
+   </div>
+    
+</div>
+
+</footer>
 
 
     </div>
    </section>
+   <!-- ASO Scrool Animation JS-->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>
