@@ -309,17 +309,56 @@ section{
             display: flex;
             flex-direction: column;
         }
-        .content-section{
-            align-items: center;
-        }
-        .catalog{
-            display: flex;
-            flex-direction: column;
-        }
         .header-area .image-section img{
             width: 100%;
             margin-top: 50px;
         }
+        .content-section{
+            align-items: center;
+        }
+        /* catagory */
+        .catalog{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* shoes */
+        .shoe-bg .shoe-title{
+            display: flex;
+            flex-direction: column;
+        }
+        .shoe-section .product{
+            display: flex;
+            flex-direction: column;
+        }
+        .shoe-section .product a{
+            display: flex;
+            flex-direction: column;
+        }
+        /* backpack */
+        .backpack .backpack-title{
+            display: flex;
+            flex-direction: column;
+        }
+        .backpack-section .bag{
+            display: flex;
+            flex-direction: column;
+        }
+        .backpack-section .bag a{
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* footer */
+        .footer-area{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-area .submit{
+            display: flex;
+            flex-direction: column;
+        }
+
        }
 
 
