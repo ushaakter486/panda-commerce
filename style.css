@@ -104,78 +104,39 @@ section{
     width: 65%;
 }
 
-/* 3rd css style */
 
-
-.center-area{
+/* Catagories Style */
+.catalog {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .catalog .item {
     display: flex;
     justify-content: space-around;
-    margin-top: 50px;
-     margin-left: 90px;
-    }
-    h2{
-    margin-top: 150px;
-    font-size: 50px;
-     margin-left: 90px; 
-    }
-    
-    .code-1{
-    display: flex;
-    width: 358%;
-    height: 120%;
-    margin: 0 20px;
-    padding: 0 25;
-    border-radius: 10px;
+  }
+  .catalog .item h1 {
+    color: white;
+  }
+  .catalog .item img {
+    width: 65px;
+  }
+  #watch,
+  #bag,
+  #shoe {
+    padding: 15px;
+    border-radius: 20px;
+  }
+  #watch {
     background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
-    font-size: 30px;
-    padding-left: 30px;
-    }
-    .code-1 img{
-    width: 100px;
-    padding-left: 90px;
-    }
-    
-    
-    .code-2{
-    display: flex;
-    width: 358%;
-    height: 120%;
-    margin: 0 20px;
-    padding: 0 25;
-    border-radius: 10px;
+  }
+  #bag {
     background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-    
-    font-size: 30px;
-    padding-left: 30px;
-    }
-    
-    .code-2 img{
-    width: 100px;
-    padding-left: 90px;
-    }
-    .code-3{
-    display: flex;
-    width: 358%;
-    height: 120%;
-    margin: 0 20px;
-    padding: 0 25;
-    border-radius: 10px;
+  }
+  #shoe {
     background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
-    
-    font-size: 30px;
-    padding-left: 30px;
-    
-    }
-    .code-3 img{
-    width: 100px;
-    padding-left: 100px;
-    }
-    
-     .section-2 h1{
-        font-size: 50px;
-        margin-top: 100px;
-        padding-left: 90px;
-    } 
+
+  }
     
     /* 4th part css style */
 
@@ -191,7 +152,7 @@ section{
         
     }
     .shoe-title h1{
-        font-size: 3em;
+        font-size: 2em;
     }
     .shoe-title a{
         color: #FFD019;
@@ -244,76 +205,64 @@ section{
         }
 
         /* 5th section css style */
+       
+.backpack{
+    background-color:#f4f4f4;
+    
+}
+        .backpack-section {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: repeat(3, 1fr);
+            
+          }
+          .backpack-title a{
+            color: #FFD019;
+            text-decoration: none;
+            
+          }
+         
+          .backpack .backpack-title{
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        .backpack-section .bag {
+            background-color: white;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin-bottom: 80px;
+          } 
+          .backpack-section .bag img {
+            width: 100%;
+          }
+          .backpack-section .bag p {
+            text-align: center;
+            
+          }
 
-           .bag-bg{
-            background-color: #f4f4f4;
-            margin-top: 100px;
-        }     
-             
-            .bag-title{
-                display: flex;
-                justify-content: space-between;
-              
-                
-            }
-            .bag-title h1{
-                font-size: 3em;
-            }
-            .bag-title a{
-                color: #FFD019;
-                text-decoration: none;
-                
-            }
-            .bag-section{
-                display: grid;
-                grid-gap: 5%;
-                
-                grid-template-columns: repeat(3,1fr);
-                padding-left: 90px;
-               
+          .my-btn-1 a{
+            background-color:black;
             
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+          }
+          .bag-price{
+            font-weight: bold;
+            margin-bottom: 20px;
+          }
                 
-            }
-             .product-area{ 
-                 background-color: #ffffff; 
-                 padding: 20px;
-                 display: flex;
-                 flex-direction: column;
-                 align-items: center;
-                 border-radius: 10px;
-            } 
-            .product-area .product-title-code{
-                font-size: 1.2em;
-                font-weight: 600;
-            }
-            .product-area p{
-                text-align: center;
-            }
-            .bag-section .product-area img{
-                width: 100%;
-            }
-        
-         .my-btn-1 a{
-                background-color:black;
-                
-                color: white;
-                text-decoration: none;
-                padding: 10px 20px;
-                border-radius: 5px;
-            
-                }
-                .product-area span{
-                    color: black;
-                    font-weight: 600;
-                    margin-bottom: 20px;
-                    
-                }
         /* footer css */
        .footer-area{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 50px;
+        padding: 80px;
         margin-top: 50px;
         margin-bottom: 50px;
         background-color: #fff2f1;
@@ -351,6 +300,28 @@ section{
         font-size: 20px;
         
        }
+
+       /* Media Quary */
+       /* iphone 14pro max */
+
+       @media (max-width:430px) {
+        .header-area{
+            display: flex;
+            flex-direction: column;
+        }
+        .content-section{
+            align-items: center;
+        }
+        .catalog{
+            display: flex;
+            flex-direction: column;
+        }
+        .header-area .image-section img{
+            width: 100%;
+            margin-top: 50px;
+        }
+       }
+
 
 
 
